@@ -1,2 +1,9 @@
-app:
-  name: Application
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+logging:
+  level:
+    root: INFO
